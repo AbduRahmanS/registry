@@ -1,0 +1,62 @@
+{
+  "id": "kimchi",
+  "name": "Kimchi",
+  "version": "1.1.16",
+  "description": "Coding agent powered by multi-model orchestration",
+  "repository": "https://github.com/getkimchi/kimchi",
+  "website": "https://kimchi.dev",
+  "authors": [
+    "Kimchi"
+  ],
+  "license": "Apache-2.0",
+  "license_url": "https://github.com/getkimchi/kimchi/blob/master/LICENSE",
+  "distribution": {
+    "binary": {
+      "darwin-aarch64": {
+        "archive": "https://github.com/getkimchi/kimchi/releases/download/v1.1.16/kimchi_darwin_arm64.tar.gz",
+        "sha256": "9e195356ea6db0bb3ca09668e565c4ed02b4d784df13e055a294ae0d260ec212",
+        "cmd": "./bin/kimchi",
+        "args": [
+          "--mode",
+          "acp"
+        ]
+      },
+      "darwin-x86_64": {
+        "archive": "https://github.com/getkimchi/kimchi/releases/download/v1.1.16/kimchi_darwin_amd64.tar.gz",
+        "sha256": "ce063fe9b97d1ed414877eb99e7b9c7bcc7c9966a82346a0e720506cce57e4cc",
+        "cmd": "./bin/kimchi",
+        "args": [
+          "--mode",
+          "acp"
+        ]
+      },
+      "linux-aarch64": {
+        "archive": "https://github.com/getkimchi/kimchi/releases/download/v1.1.16/kimchi_linux_arm64.tar.gz",
+        "sha256": "87cbd18c369a4627c5d79fea46f33e82623049878ee57873e2750919ab4fbd97",
+        "cmd": "./bin/kimchi",
+        "args": [
+          "--mode",
+          "acp"
+        ]
+      },
+      "linux-x86_64": {
+        "archive": "https://github.com/getkimchi/kimchi/releases/download/v1.1.16/kimchi_linux_amd64.tar.gz",
+        "sha256": "7d05b8edfb85fc2138734460792351ccebc60e1f9328b58956279156f1431521",
+        "cmd": "./bin/kimchi",
+        "args": [
+          "--mode",
+          "acp"
+        ]
+      },
+      "windows-x86_64": {
+        "archive": "https://github.com/getkimchi/kimchi/releases/download/v1.1.16/kimchi_windows_amd64.zip",
+        "sha256": "1c7f50c474de90b81f6baa5921483f6f7c3d07a6aceb317debb49e7011319972",
+        "cmd": "./bin/kimchi.exe",
+        "args": [
+          "--mode",
+          "acp"
+        ]
+      }
+    }
+  }
+}
